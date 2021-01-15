@@ -1,0 +1,175 @@
+[BUILDER_INFO]
+Version=1.8
+
+[GENERAL_INFO]
+CompanyName=vIRTUAL
+ProductName=Aplikasi Penjualan
+ProductVersion=1.0
+ProductDescription=Aplikasi Penjualan
+ProductURL=www.inspirasisoftware.com
+CopyrightNotice=Copyright (c) 2013
+
+[SETUP_INFO]
+DefaultInstallationPath=%ProgramFiles%\%ProductName%
+DefaultShortcutFolderName=%ProductName%
+EnableUninstaller=Yes
+AddRemoveProgramsDescription=%ProductName% %ProductVersion%
+ShortcutsInCommonProgramGroups=No
+CreateUninstallerIcon=No
+UninstallerIconDescription=Uninstall %ProductName%
+SetupType=0
+SetupLanguages=English
+DefaultSetupLanguage=English
+TestReinstall=Yes
+TestReinstallRegKey=Software\%ProductName%\%ProductVersion%
+ForceRestart=No
+
+[SYSTEM_REQUIREMENTS]
+AnyWindows=Yes
+Windows95=Yes
+Windows98=Yes
+WindowsME=Yes
+WindowsNT4=Yes
+Windows2000=Yes
+WindowsXP=Yes
+RequiredDiskSpace=10240
+AbortInstallation=No
+
+[DIALOGS]
+SplashWindow=No
+SetupWindow=Yes
+CustomDialogImage=No
+CustomDialogBitmap_Pathname=
+LanguageDialog=Yes
+WelcomeDialog=Yes
+LicenseDialog=Yes
+ReadmeDialog=Yes
+UserInfoDialog=No
+TargetDirectoryDialog=No
+SetupTypeDialog=No
+CustomSetupDialog=No
+ProgramIconOptionsDialog=No
+ProgramGroupDialog=Yes
+StartDialog=Yes
+FinishDialog=Yes
+
+[SPLASH_WINDOW]
+Bitmap_Pathname=
+Bitmap_Duration=2
+
+[SETUP_WINDOW]
+WindowTitle=Setup penjualan vb.net
+GradientFill=Yes
+ColorFrom=0x00808040
+ColorTo=0x00000000
+Heading=%ProductName% %ProductVersion%
+HeadingFont=Times New Roman,-32,700,1,0,0
+HeadingColor=0x00FFFFFF
+HeadingAlignment=0
+Heading3D=Yes
+Subheading=%ProductDescription%
+SubheadingFont=Times New Roman,-16,700,1,0,0
+SubheadingColor=0x00FFFFFF
+SubheadingAlignment=0
+Subheading3D=Yes
+Footer=%Copyright% %CompanyName%. All rights reserved. %ProductURL%
+FooterFont=Arial,-13,400,1,0,0
+FooterColor=0x0000FF00
+FooterAlignment=0
+Footer3D=No
+
+[LICENSE_DIALOG]
+License_Pathname=D:\Buku VB\1 aplikasi penjualan\aplikasi penjualan\bin\Debug\lisensi.txt
+
+[README_DIALOG]
+Readme_Pathname=D:\Buku VB\1 aplikasi penjualan\aplikasi penjualan\bin\Debug\baca aku.txt
+
+[PROGRAM_ICON_OPTIONS_DIALOG]
+AddCreateDesktopIconOption=Yes
+AddCreateQuickLaunchIconOption=Yes
+
+[FINISH_DIALOG]
+Show_ViewReadme_CheckBox=No
+Show_ViewReadme_Checked=Yes
+Show_RunApplication_CheckBox=No
+Show_RunApplication_Checked=Yes
+Readme_Pathname=
+Application_Pathname=
+
+[EXTERNAL_TOOLS]
+RunBeforeInstall=No
+BeforeInstall=,,,1,1,1,
+RunAfterInstall=No
+AfterInstall=,,,1,0,1,
+RunBeforeUninstall=No
+BeforeUninstall=,,,1,2,1,
+
+[INI_FILES]
+INI1=No,,,,
+INI2=No,,,,
+
+[CREATE_SETUP]
+OutputFolder=C:\
+SetupFilename=Setup pennualan.exe
+SetupIconPathname=D:\kumpulan ikon\ikon ico\003.ICO
+CreateSelfExtractedSetup=Yes
+CreatePasswordProtectedSetup=No
+Password=
+
+[APPLICATION_FILES]
+File=%AppDir%\manualbook penjualan.pdf,D:\Buku VB\1 aplikasi penjualan\aplikasi penjualan\bin\Debug\manualbook penjualan.pdf,17,0,32
+File=%AppDir%\Normalisasi aplikasi penjualan.pdf,D:\Buku VB\1 aplikasi penjualan\aplikasi penjualan\bin\Debug\Normalisasi aplikasi penjualan.pdf,17,0,32
+File=%AppDir%\aplikasi penjualan.exe,D:\Buku VB\1 aplikasi penjualan\aplikasi penjualan\bin\Debug\aplikasi penjualan.exe,17,2,32
+File=%AppDir%\aplikasi penjualan.vshost.exe,D:\Buku VB\1 aplikasi penjualan\aplikasi penjualan\bin\Debug\aplikasi penjualan.vshost.exe,17,2,32
+File=%AppDir%\AxInterop.Crystal.dll,D:\Buku VB\1 aplikasi penjualan\aplikasi penjualan\bin\Debug\AxInterop.Crystal.dll,17,2,32
+File=%AppDir%\Interop.Crystal.dll,D:\Buku VB\1 aplikasi penjualan\aplikasi penjualan\bin\Debug\Interop.Crystal.dll,17,2,32
+File=%AppDir%\manualbook penjualan.chm,D:\Buku VB\1 aplikasi penjualan\aplikasi penjualan\bin\Debug\manualbook penjualan.chm,17,0,32
+File=%AppDir%\1harian.rpt,D:\Buku VB\1 aplikasi penjualan\aplikasi penjualan\bin\Debug\1harian.rpt,17,0,32
+File=%AppDir%\2mingguan.rpt,D:\Buku VB\1 aplikasi penjualan\aplikasi penjualan\bin\Debug\2mingguan.rpt,17,0,32
+File=%AppDir%\3bulanan.rpt,D:\Buku VB\1 aplikasi penjualan\aplikasi penjualan\bin\Debug\3bulanan.rpt,17,0,32
+File=%AppDir%\faktur.rpt,D:\Buku VB\1 aplikasi penjualan\aplikasi penjualan\bin\Debug\faktur.rpt,17,0,32
+File=%AppDir%\lap barang.rpt,D:\Buku VB\1 aplikasi penjualan\aplikasi penjualan\bin\Debug\lap barang.rpt,17,0,32
+File=%AppDir%\lap coba barang.rpt,D:\Buku VB\1 aplikasi penjualan\aplikasi penjualan\bin\Debug\lap coba barang.rpt,17,0,32
+File=%AppDir%\lap petugas.rpt,D:\Buku VB\1 aplikasi penjualan\aplikasi penjualan\bin\Debug\lap petugas.rpt,17,0,32
+File=%AppDir%\laporan bulanan.rpt,D:\Buku VB\1 aplikasi penjualan\aplikasi penjualan\bin\Debug\laporan bulanan.rpt,17,0,32
+File=%AppDir%\laporan harian.rpt,D:\Buku VB\1 aplikasi penjualan\aplikasi penjualan\bin\Debug\laporan harian.rpt,17,0,32
+File=%AppDir%\laporan mingguan.rpt,D:\Buku VB\1 aplikasi penjualan\aplikasi penjualan\bin\Debug\laporan mingguan.rpt,17,0,32
+File=%AppDir%\master retur.rpt,D:\Buku VB\1 aplikasi penjualan\aplikasi penjualan\bin\Debug\master retur.rpt,17,0,32
+File=%AppDir%\manualbook penjualan.htm,D:\Buku VB\1 aplikasi penjualan\aplikasi penjualan\bin\Debug\manualbook penjualan.htm,17,0,32
+File=%AppDir%\db1.mdb,D:\Buku VB\1 aplikasi penjualan\aplikasi penjualan\bin\Debug\db1.mdb,17,0,32
+File=%AppDir%\aplikasi penjualan.pdb,D:\Buku VB\1 aplikasi penjualan\aplikasi penjualan\bin\Debug\aplikasi penjualan.pdb,17,0,32
+File=%AppDir%\event.log,D:\Buku VB\1 aplikasi penjualan\aplikasi penjualan\bin\Debug\event.log,17,0,32
+File=%AppDir%\aplikasi penjualan.xml,D:\Buku VB\1 aplikasi penjualan\aplikasi penjualan\bin\Debug\aplikasi penjualan.xml,17,0,32
+File=%AppDir%\baca aku.txt,D:\Buku VB\1 aplikasi penjualan\aplikasi penjualan\bin\Debug\baca aku.txt,17,0,32
+File=%AppDir%\lisensi.txt,D:\Buku VB\1 aplikasi penjualan\aplikasi penjualan\bin\Debug\lisensi.txt,17,0,32
+File=%WinSysDir%\comctl32.ocx,D:\xampp\htdocs\1konsultasivb\filefile penting instalasi\comctl32.ocx,31,2,32
+File=%WinSysDir%\comdlg32.ocx,D:\xampp\htdocs\1konsultasivb\filefile penting instalasi\comdlg32.ocx,31,2,32
+File=%WinSysDir%\Crddt32.dll,D:\xampp\htdocs\1konsultasivb\filefile penting instalasi\Crddt32.dll,29,2,32
+File=%WinSysDir%\crpe32.dll,D:\xampp\htdocs\1konsultasivb\filefile penting instalasi\crpe32.dll,29,2,32
+File=%WinSysDir%\crwrap32.dll,D:\xampp\htdocs\1konsultasivb\filefile penting instalasi\crwrap32.dll,29,2,32
+File=%WinSysDir%\Crxlat32.dll,D:\xampp\htdocs\1konsultasivb\filefile penting instalasi\Crxlat32.dll,29,2,32
+File=%WinSysDir%\crypt32.dll,D:\xampp\htdocs\1konsultasivb\filefile penting instalasi\crypt32.dll,29,2,32
+File=%WinSysDir%\Crystl32.OCX,D:\xampp\htdocs\1konsultasivb\filefile penting instalasi\Crystl32.OCX,31,2,32
+File=%WinSysDir%\IMPLODE.DLL,D:\xampp\htdocs\1konsultasivb\filefile penting instalasi\IMPLODE.DLL,29,2,32
+File=%WinSysDir%\MSADODC.OCX,D:\xampp\htdocs\1konsultasivb\filefile penting instalasi\MSADODC.OCX,31,2,32
+File=%WinSysDir%\MSDATGRD.OCX,D:\xampp\htdocs\1konsultasivb\filefile penting instalasi\MSDATGRD.OCX,31,2,32
+File=%WinSysDir%\P2BBND.DLL,D:\xampp\htdocs\1konsultasivb\filefile penting instalasi\P2BBND.DLL,29,2,32
+File=%WinSysDir%\p2bdao.dll,D:\xampp\htdocs\1konsultasivb\filefile penting instalasi\p2bdao.dll,29,2,32
+File=%WinSysDir%\p2ctdao.dll,D:\xampp\htdocs\1konsultasivb\filefile penting instalasi\p2ctdao.dll,29,2,32
+File=%WinSysDir%\p2irdao.dll,D:\xampp\htdocs\1konsultasivb\filefile penting instalasi\p2irdao.dll,29,2,32
+File=%WinSysDir%\p2sodbc.dll,D:\xampp\htdocs\1konsultasivb\filefile penting instalasi\p2sodbc.dll,29,2,32
+File=%WinSysDir%\TABCTL32.OCX,D:\xampp\htdocs\1konsultasivb\filefile penting instalasi\TABCTL32.OCX,31,2,32
+File=%WinSysDir%\u2ddisk.dll,D:\xampp\htdocs\1konsultasivb\filefile penting instalasi\u2ddisk.dll,29,2,32
+File=%WinSysDir%\u2frec.dll,D:\xampp\htdocs\1konsultasivb\filefile penting instalasi\u2frec.dll,29,2,32
+File=%WinSysDir%\u2fsepv.dll,D:\xampp\htdocs\1konsultasivb\filefile penting instalasi\u2fsepv.dll,29,2,32
+File=%WinSysDir%\u2ftext.dll,D:\xampp\htdocs\1konsultasivb\filefile penting instalasi\u2ftext.dll,29,2,32
+
+[SHORTCUTS]
+Shortcut=%AppSCFolder%\aplikasi penjualan,%AppDir%\aplikasi penjualan.exe,,,,1,%AppDir%
+Shortcut=%Desktop%\aplikasi penjualan,%AppDir%\aplikasi penjualan.exe,,,,1,%AppDir%
+Shortcut=%QuickLaunchBar%\aplikasi penjualan,%AppDir%\aplikasi penjualan.exe,,,,1,%AppDir%
+
+[REGISTRY_ENTRIES]
+
+[FILE_TYPES]
+
